@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<script type="text/javascript">
+			
+			function onAll(){
+
+
+				var image =document.getElementsByTagName("img");
+				
+				
+				for(i=0;i<image.length;i++){
+					
+					image[i].src="pic_bulbon.gif";
+				}
+
+				var p1=document.getElementsByTagName("p");
+						p1[0].innerHTML="All bulbs are on";
+							
+					
+
+			}
+				function offAll(){
+
+
+					var image =document.getElementsByTagName("img");
+		
+				
+
+				 	for(i=0;i<image.length;i++){
+					
+						image[i].src="pic_bulboff.gif";
+
+						
+				 	}
+
+				 	var p1=document.getElementsByTagName("p");
+						p1[0].innerHTML="All bulbs are off";
+					
+
+				 	
+
+				}
+				
+			
+
+		</script>
+
+		<title>Glow bulb</title>
+
+	
+	</head>
+
+	<body>
+
+	<img src="pic_bulboff.gif" style="width:100px" >
+	<img src="pic_bulboff.gif" style="width:100px" >
+	<img src="pic_bulboff.gif" style="width:100px" >
+	<img src="pic_bulboff.gif" style="width:100px" >
+	<img src="pic_bulboff.gif" style="width:100px" >
+	
+	<input type="submit" onclick="onAll()" value="ON All">
+	<input type="submit" onclick="offAll()" value="OFF All">
+	<p> </p>
+	
+
+
+	</body>
+
+</html>

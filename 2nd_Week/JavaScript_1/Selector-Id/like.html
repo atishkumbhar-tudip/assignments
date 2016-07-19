@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+
+		function alertFunction() {
+			alert("Page is loaded ");
+		}
+
+		function changeImage1() {
+		
+
+			var i=document.getElementById('img').src="like.jpg";
+
+		
+
+			
+		}
+
+		function changeImage2() {
+
+		
+
+
+			document.getElementById('img').src="unlike.png";
+
+			
+		}
+
+	</script>
+
+	<title> Alert example</title>
+</head>
+<body onload="alertFunction()">
+
+	<img id="img" style="width:100px"/>
+ 	<input type="submit" id="like" onclick="changeImage1()" value="like" />
+
+  	<input type="submit" id="unlike" onclick="changeImage2()" value="unlike"/>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.outer-rect{
+				height: 60vmin;
+				width:80vmin;
+				border:0.1vmin solid red;
+				position: absolute;
+				top:20%;
+				left:30%;
+
+		}
+

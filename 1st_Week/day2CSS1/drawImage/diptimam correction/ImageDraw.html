@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<style type="text/css">
+
+
+
+		.outer-rect{
+				height: 45vw;
+				width:85vw;
+				border:.3vmin solid black;
+				position: relative;
+				margin-left:auto;
+				margin-right: auto;
+
+				top:3px;
+		}
+
+		.smallRectDimention {
+				position: absolute;
+				width: 38px;
+				height: 23px;
+				border:0.1vmin solid blue;
+				
+			}
+			.smallsquaredimention {
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				border:0.1vmin solid;
+				
+			}
+
+			.roundrect {
+				position: absolute;
+				width: 40px;
+				height: 20px;
+				border:0.1vmin solid #772588;
+				border-radius: 20px;
+				
+			}
+
+			.bigcircle{
+
+				position: absolute;
+
+				width: 70px;
+				height: 70px;
+				border:0.1vmin solid red;
+				border-radius: 100%;
+				
+
+			}
+
+			.circle{
+
+				position: absolute;
+			
+				width: 25px;
+				height: 25px;
+				border:0.1vmin solid red;
+				border-radius: 100%;
+				
+			}
+			
+			.bigrectdimention{
+				position: absolute;
+				width: 35%;
+				height: 30%;
+				border:0.1vmin solid;
+			
+			}
+
+
+
+
+
+
+			.topleft{
+
+				left: 5%;
+				top: 5%;
+
+			}
+
+			.topright{
+
+				right: 5%;
+				top: 5%;
+
+			}
+
+			.bottomleft{
+
+				left: 5%;
+				bottom: 5%;
+
+			}
+
+
+			.bottomright{
+
+				right: 5%;
+				bottom: 5%;
+
+
+			}
+
+
+			.center-big-circle{
+
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					margin-left: -35px;
+					margin-top: -38px;
+			}
+			.center-small-circle{
+
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					margin-left: -15px;
+					margin-top: -15px;
+					
+			}
+			.center-small-sq{
+
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					margin-left: -15px;
+					margin-top: -15px;
+					
+			}
+
+
+
+		</style>
+	<title>
+		Draw Image
+	</title>
+</head>
+<body>
+
+<div class="outer-rect">
+
+
+
+
+
+			<div class="topleft bigrectdimention">
+
+		
+
+			<div  class="topleft smallsquaredimention" ></div>
+			<div  class="topright smallsquaredimention" ></div>
+			<div  class="bottomleft smallsquaredimention" ></div>
+			<div  class="bottomright smallsquaredimention"></div>
+
+
+				<div  class="center-small-sq smallsquaredimention"></div>
+
+			
+			
+			
+
+	
+	
+			</div>
+
+
+	<div class="topright bigrectdimention">
+
+		
+
+			<div  class="topleft circle" ></div>
+			<div  class="topright circle" ></div>
+			<div  class="bottomleft circle" ></div>
+			<div  class="bottomright circle"></div>
+
+			<div  class="center-small-circle circle"></div>
+
+
+			
+	
+	
+	</div>
+
+	<div class="bottomleft bigrectdimention">
+
+		
+
+			<div  class="topleft smallRectDimention" ></div>
+			<div  class="topright smallRectDimention" ></div>
+			<div  class="bottomleft smallRectDimention" ></div>
+			<div  class="bottomright smallRectDimention"></div>
+
+
+			
+
+	
+	
+	</div>
+
+	<div class="bottomright bigrectdimention" >
+
+		
+
+			<div  class="topleft roundrect" ></div>
+			<div  class="topright roundrect" ></div>
+			<div  class="bottomleft roundrect" ></div>
+			<div  class="bottomright roundrect"></div>
+
+	
+	
+	</div>
+
+
+			<div class="center-big-circle bigcircle"></div>
+	
+
+
+</div>
+
+</body>
+</html>

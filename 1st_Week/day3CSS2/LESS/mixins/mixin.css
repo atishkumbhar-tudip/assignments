@@ -1,0 +1,19 @@
+.circle {
+  border: solid;
+  backgroung: red;
+  border-radius: 100%;
+}
+.big-circle {
+  height: 100px;
+  width: 100px;
+  border: solid;
+  background: red;
+  border-radius: 100%;
+}
+.small-circle {
+  height: 50px;
+  width: 50px;
+  border: solid;
+  background: red;
+  border-radius: 100%;
+}

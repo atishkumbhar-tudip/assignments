@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JOSN parsing</title>
+</head>
+<body>
+<h4>Parsed Result</h4>
+	<p id="p1"></p>
+
+	<p id="p2"></p>
+	<script type="text/javascript">
+
+
+var text='{"students":[{"name":"Jhon", "city":"pune"},{"name":"Tom", "city":"Mumbai"},{"name":"Hary", "city":"Delhi"}]}';
+
+	var obj= JSON.parse(text);
+	var data="";
+
+			
+		for (var i = 0; i < obj.students.length; i++) {
+
+			
+
+			data+="Name: "+obj.students[i].name+"  "+"City: "+obj.students[i].city+"<br>";
+			
+			
+			
+
+		}
+
+		document.getElementById("p1").innerHTML=data;
+
+		data="";
+
+
+		for (var i in  obj.students) {
+
+
+			data+=i;
+
+
+
+		}
+
+		document.getElementById("p2").innerHTML=data;
+
+
+	
+
+	
+
+	</script>
+
+</body>
+</html>
